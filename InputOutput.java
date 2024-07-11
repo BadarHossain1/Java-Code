@@ -9,7 +9,7 @@ public class InputOutput {
         System.out.println("Enter another number: ");
         int number = scanner.nextInt();
         System.out.println("The number is: "+number);
-        scanner.nextLine();
+        scanner.nextLine(); // to clear the \n in the scanner
         String food = scanner.nextLine();
         System.out.println("Your favorite food is: "+food);
 

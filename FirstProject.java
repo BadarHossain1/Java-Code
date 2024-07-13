@@ -7,6 +7,7 @@ class Main {
         double z;
 
         Scanner scanner = new Scanner(System.in);
+        //Hello there
 
         System.out.println("Enter Side X: ");
         x = scanner.nextDouble();

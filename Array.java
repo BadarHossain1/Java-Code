@@ -15,6 +15,27 @@
         }
 
 
+        String[] cars = new String[3];
+
+        cars[0] = "mercedes";
+        cars[1] = "corvette";
+        cars[2] = "BMW";
+
+        for(int i = 0; i<cars.length; i++){
+            System.out.println(cars[i]);
+        }
+
+
+        String[][] gari = new String[3][3];
+        
+        gari[0][0] = "mercedes";
+        gari[0][1] = "corvette";
+        gari[0][2] = "BMW";
+
+        
+
+
+
 ;
 
 }

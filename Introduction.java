@@ -26,8 +26,8 @@ class Test {
         // System.out.print(s);
         // System.out.print(t);
 
-        int max = Math.max(a, b);
-        int min = Math.min(a, b);
+        int max = MathOperations.max(a, b);
+        int min = MathOperations.min(a, b);
 
         // System.out.println(max);
         // System.out.println(min);
